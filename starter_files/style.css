@@ -1,0 +1,163 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97*/
+
+    * {
+      box-sizing: border-box;
+    }
+
+body {
+  font-family: Helvetica, Arial, sans-serif
+  line-height: 1.6;
+  /*background-image: url(./bg.jpg);*/
+  width: 100%;
+}
+
+.content {
+  width: 70%;
+  border: solid thin orange;
+  margin-left: 200px;
+}
+
+header {
+  background-color: #ff8523;
+  padding: 60px;
+}
+
+header #logo {
+  display:block;
+  margin-bottom: 35px;
+}
+
+.main_navigation a{
+
+  border: solid thin white;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 60px 20px 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+table {
+  border: 1px solid ;
+  width: 97%;
+  border-collapse: collapse;
+}
+
+tbody td {
+  border:1px solid;
+}
+
+thead {
+  background-color: #1fabe5;
+  border: 1px solid thick;
+  color: white;
+}
+
+img {
+  height: 30%;
+}
+
+#page_content {
+
+}
+
+#page_content a {
+  color: #1fabe5;
+}
+
+#page_content ul {
+  font-weight: bold;
+}
+
+#page_content h2{
+  color: #1fabe5;
+}
+
+#page_content h3{
+  color: #1fabe5;
+}
+
+.name {
+  border: solid thin #ff8523;
+  padding: 30px 70px;
+  background-color: #ff8523;
+  border-radius: 5px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+
+}
+
+form {
+  border: solid thin #eee;
+  border-radius: 10px;
+  background-color: #eee;
+  margin-right: 30px;
+}
+
+form input {
+  padding: 12px 45px;
+}
+
+.city_container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.bio_info {
+margin-bottom: 30px;
+margin-left: 20px;
+}
+
+.bio_info label {
+  margin-top: 30px;
+}
+
+textarea {
+  width: 90%;
+  /*padding: 30px 250px;*/
+  /*margin-left: 20px;
+  text-align: left;*/
+}
+
+label {
+  font-weight: bold;
+
+}
+
+section {
+  margin-left: 30px;
+}
+
+.submit_container input {
+  border: 1px solid #1fabe5;
+  background-color: #1fabe5;
+  border-radius: 8px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
